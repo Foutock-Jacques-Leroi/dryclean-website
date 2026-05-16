@@ -9,56 +9,56 @@ export default function Services() {
   const services = [
     {
       id: 1,
-      title: "Everyday Cleaning",
-      description: "Professional cleaning for your regular everyday wear. Quick turnaround with impeccable results.",
+      title: "Nettoyage quotidien",
+      description: "Nettoyage professionnel de vos vêtements de tous les jours. Traitement rapide avec des résultats impeccables.",
       price: "$2-5",
       icon: "👕",
-      features: ["Shirts & Blouses", "Pants & Trousers", "Skirts & Dresses", "Standard Care"],
+      features: ["Chemises et blouses", "Pantalons et trousers", "Jupes et robes", "Soin standard"],
       color: "from-blue-500 to-cyan-400"
     },
     {
       id: 2,
-      title: "Formal Wear",
-      description: "Specialized care for suits, tuxedos, and formal attire. Professional finishing included.",
+      title: "Vêtements de cérémonie",
+      description: "Soins spécialisés pour les costumes, smokings et tenues de cérémonie. Finition professionnelle incluse.",
       price: "$5-12",
       icon: "🎩",
-      features: ["Suits & Jackets", "Tuxedos", "Formal Dresses", "Premium Press"],
+      features: ["Costumes et vestes", "Smokings", "Robes de cérémonie", "Pressage premium"],
       color: "from-purple-500 to-pink-400"
     },
     {
       id: 3,
-      title: "Delicate Garments",
-      description: "Expert handling of silk, wool, and other delicate materials with utmost care.",
+      title: "Vêtements délicats",
+      description: "Manipulation experte de la soie, laine et autres matériaux délicats avec le plus grand soin.",
       price: "$4-8",
       icon: "✨",
-      features: ["Silk Garments", "Wool Items", "Cashmere Care", "Hand Wash Available"],
+      features: ["Vêtements en soie", "Articles en laine", "Soin du cachemire", "Lavage à la main disponible"],
       color: "from-rose-500 to-orange-400"
     },
     {
       id: 4,
-      title: "Alterations & Repairs",
-      description: "Professional tailoring and garment repair services to extend the life of your clothing.",
+      title: "Retouches et réparations",
+      description: "Services de retouches et réparations de vêtements professionnels pour prolonger la durée de vie de vos vêtements.",
       price: "$10-50",
       icon: "🧵",
-      features: ["Hemming", "Seam Repair", "Zipper Replacement", "Custom Tailoring"],
+      features: ["Ourlets", "Réparation de coutures", "Remplacement de fermeture éclair", "Retouches personnalisées"],
       color: "from-green-500 to-emerald-400"
     },
     {
       id: 5,
-      title: "Wedding & Special Events",
-      description: "Pristine care for wedding dresses, bridesmaid gowns, and special occasion wear.",
+      title: "Mariage et événements spéciaux",
+      description: "Soins impeccables pour les robes de mariée, robes de demoiselle d'honneur et tenues d'occasion spéciale.",
       price: "$10-25",
       icon: "💍",
-      features: ["Wedding Dresses", "Gowns & Evening Wear", "Preservation Service", "Steam & Press"],
+      features: ["Robes de mariée", "Robes et tenues de soirée", "Service de préservation", "Vapeur et pressage"],
       color: "from-indigo-500 to-blue-400"
     },
     {
       id: 6,
-      title: "Bulk & Commercial",
-      description: "Large volume cleaning services for businesses, hotels, and restaurants with flexible scheduling.",
-      price: "Custom Quote",
+      title: "Nettoyage en gros et commercial",
+      description: "Services de nettoyage en grand volume pour les entreprises, hôtels et restaurants avec planification flexible.",
+      price: "Devis personnalisé",
       icon: "📦",
-      features: ["High Volume", "Flexible Scheduling", "Commercial Rates", "Bulk Discounts"],
+      features: ["Volumes élevés", "Planification flexible", "Tarifs commerciaux", "Rabais en gros"],
       color: "from-teal-500 to-cyan-400"
     }
   ];
@@ -72,13 +72,13 @@ export default function Services() {
             href="/"
             className="inline-block mb-8 text-blue-100 hover:text-white transition-colors duration-300 font-semibold"
           >
-            ← Back to Home
+            ← Retour à l'accueil
           </Link>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">
-            Our Services
+            Nos services
           </h1>
           <p className="text-lg sm:text-xl text-blue-50 max-w-2xl mx-auto">
-            Explore our comprehensive range of professional dry cleaning services tailored to meet all your garment care needs.
+            Découvrez notre gamme complète de services professionnels de nettoyage à sec adaptés à tous vos besoins d'entretien des vêtements.
           </p>
         </div>
       </section>
@@ -128,7 +128,7 @@ export default function Services() {
                   <div className="flex items-center justify-between pt-4 border-t border-white border-opacity-30">
                     <span className="text-xl font-bold">{service.price}</span>
                     <button className="bg-white text-slate-900 px-4 py-2 rounded-lg font-semibold hover:bg-slate-100 transition-colors duration-300">
-                      Learn More
+                      En savoir plus
                     </button>
                   </div>
                 </div>
@@ -147,14 +147,14 @@ export default function Services() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-center text-slate-900 mb-12">
-            How It Works
+            Comment ça fonctionne
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
-              { step: "1", title: "Drop Off", desc: "Bring your items to our convenient location" },
-              { step: "2", title: "Inspection", desc: "We inspect and document each garment" },
-              { step: "3", title: "Care", desc: "Professional cleaning with expert care" },
-              { step: "4", title: "Pick Up", desc: "Get your pristine clothes back fresh" }
+              { step: "1", title: "Déposer", desc: "Apportez vos articles à notre emplacement commode" },
+              { step: "2", title: "Inspection", desc: "Nous inspections et documentons chaque vêtement" },
+              { step: "3", title: "Soins", desc: "Nettoyage professionnel avec soin expert" },
+              { step: "4", title: "Retrait", desc: "Récupérez vos vêtements frais et impeccables" }
             ].map((item, idx) => (
               <div key={idx} className="text-center">
                 <div className="w-12 h-12 bg-linear-to-r from-blue-600 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -172,23 +172,23 @@ export default function Services() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-blue-50 to-cyan-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-            Affordable Quality Service
+            Service de qualité abordable
           </h2>
           <p className="text-lg text-slate-600 mb-8">
-            We offer competitive pricing without compromising on quality. Bulk orders and loyalty discounts available upon request.
+            Nous offrons des prix compétitifs sans compromettre la qualité. Les rabais en gros et de fidélité sont disponibles sur demande.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-md">
-              <h3 className="font-semibold text-slate-900 mb-2">Express Service</h3>
-              <p className="text-slate-600 text-sm">24-hour turnaround available (+20%)</p>
+              <h3 className="font-semibold text-slate-900 mb-2">Service express</h3>
+              <p className="text-slate-600 text-sm">Traitement en 24 heures disponible (+20%)</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md">
-              <h3 className="font-semibold text-slate-900 mb-2">Free Pickup</h3>
-              <p className="text-slate-600 text-sm">Within 5-mile radius for orders over $50</p>
+              <h3 className="font-semibold text-slate-900 mb-2">Enlèvement gratuit</h3>
+              <p className="text-slate-600 text-sm">Dans un rayon de 5 km pour les commandes de plus de 50 $</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md">
-              <h3 className="font-semibold text-slate-900 mb-2">Loyalty Program</h3>
-              <p className="text-slate-600 text-sm">10% discount on every 10th order</p>
+              <h3 className="font-semibold text-slate-900 mb-2">Programme de fidélité</h3>
+              <p className="text-slate-600 text-sm">10 % de rabais sur chaque 10e commande</p>
             </div>
           </div>
         </div>
@@ -198,13 +198,13 @@ export default function Services() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-slate-900 to-slate-800">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-            Ready to Get Started?
+            Prêt à commencer ?
           </h2>
           <p className="text-lg text-slate-300 mb-8">
-            Contact us today to place your order or ask about any special requests.
+            Contactez-nous dès aujourd'hui pour passer votre commande ou poser des questions sur les demandes spéciales.
           </p>
           <button className="bg-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-cyan-600 transition-colors duration-300">
-            Contact Us
+            Nous contacter
           </button>
         </div>
       </section>
@@ -212,8 +212,8 @@ export default function Services() {
       {/* Footer */}
       <footer className="bg-slate-950 text-slate-400 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; FYJL CORP 2026 CleanPress. All rights reserved.</p>
-          <p className="text-sm mt-2">Professional Dry Cleaning Services</p>
+          <p>&copy; FYJL CORP 2026 CleanPress. Tous droits réservés.</p>
+          <p className="text-sm mt-2">Services professionnels de nettoyage à sec</p>
         </div>
       </footer>
     </div>

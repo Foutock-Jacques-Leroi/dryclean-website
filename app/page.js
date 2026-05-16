@@ -8,18 +8,18 @@ export default function Home() {
       <section className="min-h-screen flex items-center justify-center bg-linear-to-r from-blue-600 to-cyan-500 px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Premium Dry Cleaning Services
+            Services professionnels de nettoyage à sec
           </h1>
           <p className="text-lg sm:text-xl text-blue-50 mb-8 leading-relaxed">
-            Experience exceptional quality care for your finest garments. We deliver pristine results with attention to detail that makes a difference.
+            Profitez de soins de qualité exceptionnelle pour vos vêtements les plus délicats. Nous offrons des résultats impeccables avec une attention aux détails qui fait la différence.
           </p>
           <Link
             href="/services"
             className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition-colors duration-300 mb-6"
           >
-            Explore Our Services
+            Découvrir nos services
           </Link>
-          <p className="text-blue-100 text-sm">Fast • Reliable • Professional</p>
+          <p className="text-blue-100 text-sm">Rapide • Fiable • Professionnel</p>
         </div>
       </section>
 
@@ -27,7 +27,7 @@ export default function Home() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-center text-slate-900 mb-12">
-            Why Choose Us?
+            Pourquoi nous choisir ?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
@@ -35,9 +35,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">✨</span>
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">Superior Quality</h3>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">Qualité supérieure</h3>
               <p className="text-slate-600">
-                Advanced techniques and premium products ensure your clothes look fresh and feel perfect.
+                Les techniques avancées et les produits premium garantissent que vos vêtements paraissent frais et se sentent parfaits.
               </p>
             </div>
 
@@ -46,9 +46,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">⚡</span>
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">Quick Turnaround</h3>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">Traitement rapide</h3>
               <p className="text-slate-600">
-                Fast service without compromising quality. Get your clothes back sooner than you expect.
+                Service rapide sans compromettre la qualité. Récupérez vos vêtements plus tôt que prévu.
               </p>
             </div>
 
@@ -57,9 +57,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">🛡️</span>
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">Garment Care</h3>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">Entretien des vêtements</h3>
               <p className="text-slate-600">
-                Specialized care for delicate fabrics and unique materials. Your precious items are safe with us.
+                Soins spécialisés pour les tissus délicats et les matériaux uniques. Vos articles précieux sont en sécurité avec nous.
               </p>
             </div>
           </div>
@@ -70,16 +70,16 @@ export default function Home() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-slate-900 to-slate-800">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-            Ready to Experience the Difference?
+            Prêt à expérimenter la différence ?
           </h2>
           <p className="text-lg text-slate-300 mb-8">
-            View our complete range of services and find exactly what you need.
+            Consultez notre gamme complète de services et trouvez exactement ce dont vous avez besoin.
           </p>
           <Link
             href="/services"
             className="inline-block bg-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-cyan-600 transition-colors duration-300"
           >
-            View All Services
+            Voir tous les services
           </Link>
         </div>
       </section>
@@ -87,8 +87,8 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-slate-950 text-slate-400 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; FYJL CORP 2026 CleanPress. All rights reserved.</p>
-          <p className="text-sm mt-2">Premium Dry Cleaning Services</p>
+          <p>&copy; FYJL CORP 2026 CleanPress. Tous droits réservés.</p>
+          <p className="text-sm mt-2">Services professionnels de nettoyage à sec</p>
         </div>
       </footer>
     </div>

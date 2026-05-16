@@ -4,14 +4,21 @@ import { useState } from "react";
 import Link from "next/link";
 
 const NAV_LINKS = [
-  { label: "Home", href: "/" },
+  { label: "Accueil", href: "/" },
   { label: "Services", href: "/services" },
-  { label: "About", href: "/about" },
+  { label: "Réserver", href: "/booking" },
+  { label: "À propos", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
 
+
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const message = encodeURIComponent("Salut, je suis intéressé par vos services de nettoyage à sec. Pouvez-vous me donner plus d'informations ?");
+  const phoneNumber = process.env.PHONE_NUMBER;
+  const Whatsapp = `https://wa.me/${phoneNumber}?text=${message}`;
 
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
@@ -40,16 +47,16 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3">
           <Link
-            href="/services"
+            href="/booking"
             className="hidden rounded-full bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700 md:inline-flex"
           >
-            Book a Pickup
+            Réserver un enlèvement
           </Link>
 
           <button
             type="button"
             className="group inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-slate-200 bg-white text-slate-900 shadow-sm transition hover:border-slate-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 md:hidden"
-            aria-label="Toggle navigation menu"
+            aria-label="Basculer le menu de navigation"
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((open) => !open)}
           >
@@ -81,11 +88,11 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/services"
+            href="/booking"
             onClick={() => setMenuOpen(false)}
             className="block rounded-2xl bg-blue-600 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-blue-700"
           >
-            Book a Pickup
+            Faite une Réservation
           </Link>
         </div>
       </div>
