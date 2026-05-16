@@ -64,9 +64,9 @@ export default function Services() {
   ];
 
   return (
-    <div className="w-full bg-gradient-to-b from-slate-50 to-white">
+    <div className="w-full bg-linear-to-b from-slate-50 to-white">
       {/* Header Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-cyan-500 px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <section className="bg-linear-to-r from-blue-600 to-cyan-500 px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
         <div className="max-w-6xl mx-auto text-center">
           <Link
             href="/"
@@ -99,7 +99,7 @@ export default function Services() {
                 }`}
               >
                 {/* Card Background Gradient */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-90`}></div>
+                <div className={`absolute inset-0 bg-linear-to-br ${service.color} opacity-90`}></div>
 
                 {/* Card Content */}
                 <div className="relative z-10 p-8 text-white flex flex-col h-full">
@@ -110,7 +110,7 @@ export default function Services() {
                   <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
 
                   {/* Description */}
-                  <p className="text-sm opacity-95 mb-6 flex-grow">
+                  <p className="text-sm opacity-95 mb-6 grow">
                     {service.description}
                   </p>
 
@@ -157,7 +157,7 @@ export default function Services() {
               { step: "4", title: "Pick Up", desc: "Get your pristine clothes back fresh" }
             ].map((item, idx) => (
               <div key={idx} className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-linear-to-r from-blue-600 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold text-lg">{item.step}</span>
                 </div>
                 <h3 className="font-semibold text-slate-900 mb-2">{item.title}</h3>
@@ -169,7 +169,7 @@ export default function Services() {
       </section>
 
       {/* Pricing Info Section */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-cyan-50">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-blue-50 to-cyan-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
             Affordable Quality Service
@@ -195,7 +195,7 @@ export default function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-slate-900 to-slate-800">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-slate-900 to-slate-800">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
             Ready to Get Started?
@@ -212,7 +212,7 @@ export default function Services() {
       {/* Footer */}
       <footer className="bg-slate-950 text-slate-400 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; 2026 CleanPress. All rights reserved.</p>
+          <p>&copy; FYJL CORP 2026 CleanPress. All rights reserved.</p>
           <p className="text-sm mt-2">Professional Dry Cleaning Services</p>
         </div>
       </footer>

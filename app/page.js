@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Home() {
   return (
 <>
-    <div className="w-full bg-gradient-to-b from-slate-50 to-white">
+    <div className="w-full bg-linear-to-b from-slate-50 to-white">
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-600 to-cyan-500 px-4 sm:px-6 lg:px-8">
+      <section className="min-h-screen flex items-center justify-center bg-linear-to-r from-blue-600 to-cyan-500 px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Premium Dry Cleaning Services
@@ -31,7 +31,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <div className="text-center p-6 rounded-xl bg-gradient-to-br from-blue-50 to-cyan-50 hover:shadow-lg transition-shadow duration-300">
+            <div className="text-center p-6 rounded-xl bg-linear-to-br from-blue-50 to-cyan-50 hover:shadow-lg transition-shadow duration-300">
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">✨</span>
               </div>
@@ -42,7 +42,7 @@ export default function Home() {
             </div>
 
             {/* Feature 2 */}
-            <div className="text-center p-6 rounded-xl bg-gradient-to-br from-blue-50 to-cyan-50 hover:shadow-lg transition-shadow duration-300">
+            <div className="text-center p-6 rounded-xl bg-linear-to-br from-blue-50 to-cyan-50 hover:shadow-lg transition-shadow duration-300">
               <div className="w-16 h-16 bg-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">⚡</span>
               </div>
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
 
             {/* Feature 3 */}
-            <div className="text-center p-6 rounded-xl bg-gradient-to-br from-blue-50 to-cyan-50 hover:shadow-lg transition-shadow duration-300">
+            <div className="text-center p-6 rounded-xl bg-linear-to-br from-blue-50 to-cyan-50 hover:shadow-lg transition-shadow duration-300">
               <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">🛡️</span>
               </div>
@@ -67,7 +67,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-slate-900 to-slate-800">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-r from-slate-900 to-slate-800">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
             Ready to Experience the Difference?
@@ -87,7 +87,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-slate-950 text-slate-400 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; 2026 CleanPress. All rights reserved.</p>
+          <p>&copy; FYJL CORP 2026 CleanPress. All rights reserved.</p>
           <p className="text-sm mt-2">Premium Dry Cleaning Services</p>
         </div>
       </footer>
