@@ -18,12 +18,15 @@ export default function Booking() {
   const [submitted, setSubmitted] = useState(false);
 
   const services = [
-    "Nettoyage quotidien",
-    "Vêtements de cérémonie",
-    "Vêtements délicats",
-    "Retouches et réparations",
-    "Mariage et événements spéciaux",
-    "Nettoyage en gros et commercial"
+    "Wash and Go",
+    "Lavage, Esorage",
+    "Lavage, Sechage",
+    "Sechage Simple",
+    "Sechage, Repassage",
+    "Service Complet",
+    "Service Premium",
+    "Abonnement"
+
   ];
 
   const handleChange = (e) => {
@@ -128,7 +131,7 @@ Merci!`;
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="Jean Dupont"
+                    placeholder="Atangana christian"
                     required
                     className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
                   />
@@ -162,7 +165,7 @@ Merci!`;
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+33 6 12 34 56 78"
+                    placeholder="+237 6 12 34 56 78"
                     required
                     className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
                   />
@@ -229,7 +232,7 @@ Merci!`;
                   name="items"
                   value={formData.items}
                   onChange={handleChange}
-                  placeholder="Ex: 2 costumes, 3 chemises, 1 robe..."
+                  placeholder="Ex: 2 costumes, 3Kg chemises..."
                   required
                   rows="3"
                   className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition resize-none"
@@ -246,7 +249,7 @@ Merci!`;
                   name="notes"
                   value={formData.notes}
                   onChange={handleChange}
-                  placeholder="Demandes spéciales, allergies de produits, etc..."
+                  placeholder="Demandes spéciales, habits qui coule, allergies de produits, etc..."
                   rows="3"
                   className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition resize-none"
                 ></textarea>
@@ -259,14 +262,14 @@ Merci!`;
                   <li>• Remplissez le formulaire avec vos informations</li>
                   <li>• Cliquez sur "Réserver via WhatsApp"</li>
                   <li>• Vous serez dirigé vers WhatsApp pour confirmer</li>
-                  <li>• Notre équipe vous répondra rapidement!</li>
+                  <li>• NDJIMO Press-Clean vous répondra rapidement!</li>
                 </ul>
               </div>
 
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-linear-to-r from-blue-600 to-cyan-500 text-white py-3 px-6 rounded-lg font-semibold text-lg hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
+                className="cursor-pointer w-full bg-linear-to-r from-blue-600 to-cyan-500 text-white py-3 px-6 rounded-lg font-semibold text-lg hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
               >
                 <span>📱 Réserver via WhatsApp</span>
               </button>
@@ -301,8 +304,8 @@ Merci!`;
       {/* Footer */}
       <footer className="bg-slate-950 text-slate-400 py-8 px-4 sm:px-6 lg:px-8 mt-12">
         <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; FYJL CORP 2026 CleanPress. Tous droits réservés.</p>
-          <p className="text-sm mt-2">Services professionnels de nettoyage à sec</p>
+          <p>&copy; FYJL CORP 2026 NDJIMO Press-Clean. Tous droits réservés.</p>
+          <p className="text-sm mt-2">Services professionnels de Pressing</p>
         </div>
       </footer>
     </div>

@@ -9,58 +9,88 @@ export default function Services() {
   const services = [
     {
       id: 1,
-      title: "Nettoyage quotidien",
-      description: "Nettoyage professionnel de vos vêtements de tous les jours. Traitement rapide avec des résultats impeccables.",
-      price: "$2-5",
+      title: "Wash and Go",
+      description: "Nettoyage professionnel a sec (80%) de vos vêtements just le temps de votre presence chez nous! ",
+      price: "750 - 850 XAF",
       icon: "👕",
-      features: ["Chemises et blouses", "Pantalons et trousers", "Jupes et robes", "Soin standard"],
+      features: ["Chemises et Jeans", "Pantalons et accessoires", "Jupes et robes", "Sous Vetements"],
       color: "from-blue-500 to-cyan-400"
     },
     {
       id: 2,
-      title: "Vêtements de cérémonie",
-      description: "Soins spécialisés pour les costumes, smokings et tenues de cérémonie. Finition professionnelle incluse.",
-      price: "$5-12",
-      icon: "🎩",
-      features: ["Costumes et vestes", "Smokings", "Robes de cérémonie", "Pressage premium"],
-      color: "from-purple-500 to-pink-400"
-    },
-    {
-      id: 3,
-      title: "Vêtements délicats",
-      description: "Manipulation experte de la soie, laine et autres matériaux délicats avec le plus grand soin.",
-      price: "$4-8",
+      title: "LAVAGE, SECHAGE",
+      description: "Manipulation avec le plus grand soins pour un lavage a 100% sec de vos vetements.",
+      price: "950 XAF",
       icon: "✨",
-      features: ["Vêtements en soie", "Articles en laine", "Soin du cachemire", "Lavage à la main disponible"],
+      features: ["Chemises et Jeans", "Pantalons", "Jupes et robes", "Sous Vetements"],
       color: "from-rose-500 to-orange-400"
     },
     {
-      id: 4,
-      title: "Retouches et réparations",
-      description: "Services de retouches et réparations de vêtements professionnels pour prolonger la durée de vie de vos vêtements.",
-      price: "$10-50",
+      id: 3,
+      title: "SECHAGE SIMPLE",
+      description: "Services simple de sechage a 100% sec apres lavage de vêtements.",
+      price: "550 XAF",
       icon: "🧵",
-      features: ["Ourlets", "Réparation de coutures", "Remplacement de fermeture éclair", "Retouches personnalisées"],
+      features: ["Chemises et Jeans", "Pantalons et trousers", "Jupes et robes", "Sous Vetements"],
       color: "from-green-500 to-emerald-400"
     },
     {
-      id: 5,
-      title: "Mariage et événements spéciaux",
-      description: "Soins impeccables pour les robes de mariée, robes de demoiselle d'honneur et tenues d'occasion spéciale.",
-      price: "$10-25",
+      id: 4,
+      title: "SECHAGE, REPASSAGE",
+      description: "Soins de repassage impeccables pour vos vêtements après séchage complet.",
+      price: "1450 XAF",
       icon: "💍",
-      features: ["Robes de mariée", "Robes et tenues de soirée", "Service de préservation", "Vapeur et pressage"],
+      features: ["Chemises et Jeans", "Pantalons et trousers", "Jupes et robes", "Sous Vetements"],
       color: "from-indigo-500 to-blue-400"
     },
     {
+      id: 5,
+      title: "SERVICE COMPLET",
+      description: " On parle ici du Lavage, sechage, repassage, plastification et Livrason.",
+      price: "1600 - 1750 XAF",
+      icon: "📦",
+      features: ["Chemises et Jeans", "Pantalons et trousers", "Jupes et robes", "Sous Vetements"],
+      color: "from-teal-500 to-cyan-400"
+    }, 
+
+    {
       id: 6,
-      title: "Nettoyage en gros et commercial",
-      description: "Services de nettoyage en grand volume pour les entreprises, hôtels et restaurants avec planification flexible.",
-      price: "Devis personnalisé",
+      title: "REPASSAGE SIMPLE",
+      description: " On parle ici du Repassage simple et professionelles des vêtement",
+      price: "250 - 500 XAF",
+      icon: "📦",
+      features: ["Chemises et Jeans", "Pantalons et trousers", "Jupes et robes", "Sous Vetements"],
+      color: "from-teal-500 to-cyan-400"
+    },
+
+    {
+      id: 7,
+      title: "ABONNEMENT",
+      description: "L'Abonnement est la a votre services pour des lavages ilimite de vos vetements et tenue de soiree avec pour inscription *2500 XAF* !",
+      price: "10,000 - 35,000 XAF",
+      icon: "📦",
+      features: ["Abonnement Hebdomadaire", "Abonnement Mensuel"],
+      color: "from-teal-500 to-cyan-400"
+    },
+
+     {
+      id: 8,
+      title: "SERVICE PREMIUM",
+      description: " On parle ici du Service Complet pour Smokings, Costumes, Robes haut standing et Tenue de Soiree par Pieces ou Ensemble ",
+      price: "1500 - 2500 - 3000 XAF",
       icon: "📦",
       features: ["Volumes élevés", "Planification flexible", "Tarifs commerciaux", "Rabais en gros"],
       color: "from-teal-500 to-cyan-400"
-    }
+    },
+    {
+      id: 9,
+      title: "PARTENARIAT",
+      description: " On parle ici des Startups ou individuelles. ceux qui ont des clients/contacts mais pas de materiels. ",
+      price: "60,000 - 70,000 XAF",
+      icon: "📦",
+      features: ["Partenariat Mensuel","Partenariat Trimestrielle"],
+      color: "from-teal-500 to-cyan-400"
+    },
   ];
 
   return (
@@ -75,7 +105,7 @@ export default function Services() {
             ← Retour à l'accueil
           </Link>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">
-            Nos services
+            Nos services Au Kilogrammes
           </h1>
           <p className="text-lg sm:text-xl text-blue-50 max-w-2xl mx-auto">
             Découvrez notre gamme complète de services professionnels de nettoyage à sec adaptés à tous vos besoins d'entretien des vêtements.

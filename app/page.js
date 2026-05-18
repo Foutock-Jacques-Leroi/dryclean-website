@@ -5,13 +5,14 @@ export default function Home() {
 <>
     <div className="w-full bg-linear-to-b from-slate-50 to-white">
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center bg-linear-to-r from-blue-600 to-cyan-500 px-4 sm:px-6 lg:px-8">
+      <section className="min-h-screen flex items-center justify-center bg-linear-to-r from-blue-950 to-cyan-500 px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Services professionnels de nettoyage à sec
           </h1>
           <p className="text-lg sm:text-xl text-blue-50 mb-8 leading-relaxed">
-            Profitez de soins de qualité exceptionnelle pour vos vêtements les plus délicats. Nous offrons des résultats impeccables avec une attention aux détails qui fait la différence.
+            Profitez de soins de qualité exceptionnelle pour vos vêtements les plus délicats. Nous offrons des résultats impeccables avec une attention aux détails qui fait la différence. 
+            <p className="font-extrabold">RAMASSAGES ET LIVRASONS GRATUIT</p>
           </p>
           <Link
             href="/services"

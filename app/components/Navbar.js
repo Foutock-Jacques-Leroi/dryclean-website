@@ -8,7 +8,6 @@ const NAV_LINKS = [
   { label: "Services", href: "/services" },
   { label: "Réserver", href: "/booking" },
   { label: "À propos", href: "/about" },
-  { label: "Contact", href: "/contact" },
 ];
 
 
@@ -24,12 +23,13 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3 text-slate-900">
-          <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-linear-to-br from-blue-600 to-cyan-500 text-white shadow-lg shadow-blue-500/20">
-            <span className="text-xl font-semibold">C</span>
+          <div className="flex h-11 w-11 p-5 items-center justify-center rounded-2xl bg-linear-to-br from-blue-600 to-cyan-500 text-white shadow-lg shadow-blue-500/20">
+            <span className="text-xl font-semibold">NP</span>
           </div>
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-slate-600">CleanPress</p>
-            <p className="text-base font-semibold text-slate-900">Dry Cleaning</p>
+            <p className="text-base font-extrabold text-slate-900">N D J I M O</p>
+
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-slate-600">Press-Clean</p>
           </div>
         </Link>
 
@@ -50,7 +50,7 @@ export default function Navbar() {
             href="/booking"
             className="hidden rounded-full bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700 md:inline-flex"
           >
-            Réserver un enlèvement
+            Faite une Réservation
           </Link>
 
           <button
