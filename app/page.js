@@ -12,7 +12,7 @@ export default function Home() {
           </h1>
           <p className="text-lg sm:text-xl text-blue-50 mb-8 leading-relaxed">
             Profitez de soins de qualité exceptionnelle pour vos vêtements les plus délicats. Nous offrons des résultats impeccables avec une attention aux détails qui fait la différence. 
-            <p className="font-extrabold">RAMASSAGES ET LIVRASONS GRATUIT</p>
+            <div className="font-extrabold">RAMASSAGES ET LIVRAISONS GRATUIT</div>
           </p>
           <Link
             href="/services"

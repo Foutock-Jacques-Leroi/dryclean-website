@@ -19,7 +19,6 @@ export default function Booking() {
 
   const services = [
     "Wash and Go",
-    "Lavage, Esorage",
     "Lavage, Sechage",
     "Sechage Simple",
     "Sechage, Repassage",
